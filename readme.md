@@ -145,3 +145,19 @@ func main(){
 ```
 
 ##
+
+### Fluxo de controle (if's / operadores lógicos)
+
+Aplicação precisa se desviar de algumas instruções...
+
+```go
+func main(){
+    salary := 999.00
+    var salayPlusBonus float64
+    salaryPlusBonus = salary
+    bonus := 1,10
+    if salary < 1000 {
+        salaryPlusBonus = salaryPlusBonus * bonus
+    }
+}
+```
