@@ -161,3 +161,45 @@ func main(){
     }
 }
 ```
+
+### Else
+
+```go
+import "fmt"
+
+func main(){
+    var isCar bool = true
+    vehichlePrice := 1000
+
+    if isCar {
+        vehiclePrice += 55.50
+    }
+
+    fmt.Println("Final price: ", vehiclePrice)
+}
+
+```
+
+Continue -> Jump the loop but continues, just jump into the next iteration
+Break -> Interrupt the loop
+
+### Functions
+
+não é todo código que fica na main
+codigo tem q ter facilidade para manutenção
+cada função tem sua responsabilidade
+
+funcao init -> roda antes do codigo ser chamado -> sempre e chamada
+
+### Ponteiros E Struct
+
+Go mod >
+
+
+### Generics, panic defer e recover
+
+
+
+
+
+
