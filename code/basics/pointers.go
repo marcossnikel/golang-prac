@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func pointers() {
 	//y recebe 5 aqui, as 2 variáveis tem o msm valor
 	x := 5
 	y := &x
